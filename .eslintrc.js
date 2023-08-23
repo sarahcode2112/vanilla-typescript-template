@@ -9,13 +9,14 @@ module.exports = {
     'standard-with-typescript',
     'plugin:@typescript-eslint/recommended-type-checked',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
-    'plugin:@typescript-eslint/strict'
+    'plugin:@typescript-eslint/strict',
+    'plugin:prettier/recommended'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: true,
     tsconfigRootDir: __dirname
   },
-  plugins: ['@typescript-eslint'],
-  rules: { '@typescript-eslint/await-thenable': 'error', '@typescript-eslint/semi': 'off' }
+  plugins: ['@typescript-eslint', 'prettier'],
+  rules: { '@typescript-eslint/await-thenable': 'error' }
 };

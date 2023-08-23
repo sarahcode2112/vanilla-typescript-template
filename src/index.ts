@@ -1,1 +1,1 @@
-export const runApp = () => 'Testing';
+export const runApp = (): string => 'Testing';

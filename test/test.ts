@@ -1,6 +1,6 @@
 import { runApp } from '../src/index';
 
-describe('App Test', () => {
+describe('runApp function', () => {
   it('should return "Testing"', () => {
     const result = runApp();
     expect(result).toBe('Testing');

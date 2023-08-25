@@ -11,6 +11,6 @@
     "noImplicitAny": true,
     "skipLibCheck": true
   },
-  "include": ["src/", "test/", ".eslintrc.js", "jest.config.ts"],
+  "include": ["src/", "test/"],
   "exclude": []
 }

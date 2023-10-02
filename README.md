@@ -1,4 +1,4 @@
-Thank you to these sources for helping me learn how to build this template:
+Thank you to these sources for helping me learn how to build my Vanilla TypeScript Template:
 
 - https://khalilstemmler.com/blogs/tooling/prettier/
 - https://khalilstemmler.com/blogs/typescript/eslint-for-typescript/
